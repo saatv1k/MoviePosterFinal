@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String TARGET_URL =
             "https://vision.googleapis.com/v1/images:annotate?";
     private static final String API_KEY =
-            "key=AIzaSyBNISPb_yrEe2qw9AOF1SI3bcHaToqikU4";
+            "key=API_KEY";
 
 
 
@@ -339,7 +339,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("TAG",query);
                 try {
 
-                    URL url = new URL("https://api.themoviedb.org/3/search/movie?api_key=13a7c960b4b265f6e81982f7fcdc3bac&query=" + query);
+                    URL url = new URL("https://api.themoviedb.org/3/search/movie?api_key=API_KEY&query=" + query);
                     URLConnection urlConnection = url.openConnection();
                     InputStreamReader inputStreamReader = new InputStreamReader(urlConnection.getInputStream());
                     BufferedReader in = new BufferedReader(inputStreamReader);

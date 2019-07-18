@@ -6,5 +6,5 @@ public class PlayerConfig {
 
     }
 
-    public static final String API_KEY= "AIzaSyDGGra6iK1xd421XrHjsBwgwTHWNAq1Y3I";
+    public static final String API_KEY= "API_KEY";
 }

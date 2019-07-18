@@ -151,7 +151,7 @@ public class InfoActivity extends YouTubeBaseActivity{
         @Override
         protected Void doInBackground(Void... voids) {
             try{
-                URL url = new URL("https://api.themoviedb.org/3/movie/"+movieID+"?api_key=13a7c960b4b265f6e81982f7fcdc3bac");
+                URL url = new URL("https://api.themoviedb.org/3/movie/"+movieID+"?api_key=API_KEY");
                 URLConnection urlConnection = url.openConnection();
                 InputStreamReader inputStreamReader = new InputStreamReader(urlConnection.getInputStream());
                 BufferedReader in = new BufferedReader(inputStreamReader);
@@ -224,7 +224,7 @@ public class InfoActivity extends YouTubeBaseActivity{
         protected Void doInBackground(Void... voids) {
 
             try{
-                URL url = new URL("https://api.themoviedb.org/3/movie/"+movieID+"/videos?api_key=13a7c960b4b265f6e81982f7fcdc3bac");
+                URL url = new URL("https://api.themoviedb.org/3/movie/"+movieID+"/videos?api_key=API_KEY");
                 URLConnection urlConnection = url.openConnection();
                 InputStreamReader inputStreamReader = new InputStreamReader(urlConnection.getInputStream());
                 BufferedReader in = new BufferedReader(inputStreamReader);
@@ -268,7 +268,7 @@ public class InfoActivity extends YouTubeBaseActivity{
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
 
-            youTubePlayerView.initialize("AIzaSyBNISPb_yrEe2qw9AOF1SI3bcHaToqikU4",onInitializedListener);
+            youTubePlayerView.initialize("API_KEY",onInitializedListener);
         }
     }
 
@@ -283,7 +283,7 @@ public class InfoActivity extends YouTubeBaseActivity{
         @Override
         protected Void doInBackground(Void... voids) {
             try {
-                URL url = new URL("https://api.themoviedb.org/3/movie/"+movieID+"/credits?api_key=13a7c960b4b265f6e81982f7fcdc3bac");
+                URL url = new URL("https://api.themoviedb.org/3/movie/"+movieID+"/credits?api_key=API_KEY");
                 URLConnection urlConnection = url.openConnection();
                 InputStreamReader inputStreamReader = new InputStreamReader(urlConnection.getInputStream());
                 BufferedReader in = new BufferedReader(inputStreamReader);

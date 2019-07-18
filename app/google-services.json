@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "368692031446",
+    "firebase_url": "https://movie-poster-final.firebaseio.com",
+    "project_id": "movie-poster-final",
+    "storage_bucket": "movie-poster-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368692031446:android:360c2ad32540a422",
+        "android_client_info": {
+          "package_name": "com.example.movieposterfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368692031446-ut5rhj6q3qochaq2qauul3i5p3t582c5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc_w2ACEmodekOce7c3ndu85CqetpGv7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368692031446-ut5rhj6q3qochaq2qauul3i5p3t582c5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
